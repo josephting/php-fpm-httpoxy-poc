@@ -7,7 +7,7 @@
 require 'vendor/autoload.php';
 
 $client = new GuzzleHttp\Client();
-$client->request('POST', 'http://my-internal-microservice.example.com/', [
+$client->request('POST', 'http://localhost/httpoxy/log', [
     'secret' => 'some-really-secret-string'
 ]);
 
